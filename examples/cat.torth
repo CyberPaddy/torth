@@ -2,7 +2,7 @@ include "std"
 
 // Print the help and exit if no arguments were given
 function check_arguments :
-  if argc 1 >= do
+  if argc 1 <= do
     "Print the contents of the files given as command line arguments.\n" puts
     "You can give one or more file names as arguments.\n\n" puts
     "Syntax: ./cat.bin <file1> <file2>\n" puts 1 exit
